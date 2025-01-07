@@ -5,10 +5,10 @@
         <script>
             var values, max, min;
             values = 6;
-            done = 100;
-            work = 0;
+            max = 100;
+            min = 0;
             for (var i = 0; i < values; i++) {
-                document.write(Math.floor(Math.random() * (done - work + 1)) + work + "<br>");
+                document.write(Math.floor(Math.random() * (max - min + 1)) + min + "<br>");
             }
             var date= new Date();
             document.write("<br>" + "Today's date is " + date + "<br><br>"); 
